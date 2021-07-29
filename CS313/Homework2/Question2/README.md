@@ -8,9 +8,9 @@ Make a prefix (stack) calculator
     - User inputs their expression as a string in the correct notation
     - Then, the string gets read from end to beginning (right to left), and each number is pushed to a stack
       -	If a non-digit character is read, then it checks what that character is
-            - If it is a whitespace, it ignores
-            - If it is not a valid operator, it flags it as false and stops reading through it
-            - If it’s a valid operator it performs the operation then pushes the result back into the stack
+          - If it is a whitespace, it ignores
+          - If it is not a valid operator, it flags it as false and stops reading through it
+          - If it’s a valid operator it performs the operation then pushes the result back into the stack
     - When the valid operator is reached, it pops and stores the top values on the stack
         - The first popped is the first operand, the second is the second (so it does non-communitive operations such as ‘-‘ correctly)
         - If only one operand is able to be popped, flag expression as false and stop reading through it
