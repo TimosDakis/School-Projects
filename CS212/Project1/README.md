@@ -12,6 +12,7 @@ left column should display the Clocks in the order read from the file, and the r
 the Clocks in sorted order.
 
 **The input file**
+
 Each line of the input file will contain information about a Clock, with each piece of information
 separated by a colon. An example of the input file would be:
 12:31:19
