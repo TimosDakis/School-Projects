@@ -20,3 +20,8 @@ the user to enter an integer in the specified range.**
 Create a **sentinel** (sentinel value **999**) that will allow the user to exit the program.
 
 # Homework 1 - Part 2
+Write a MIPS assembly language program that accomplishes the following tasks: 
+1) Prompts the user to enter 10 integer values that will represent the elements of an array.
+2) Populate the array with the given values.
+3) Compute and display the sum and min of these elements.
+4) Traverses and display in reverse order the elements of the array on one column
