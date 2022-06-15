@@ -1,4 +1,7 @@
 # School Projects
+
+**DO NOT COPY, YOU WILL LEARN NOTHING**
+
 This contains projects from:
 
 • CS212 (Java OOP)
