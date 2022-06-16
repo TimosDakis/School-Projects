@@ -1,5 +1,5 @@
 # Assignments
-These assignments were done to compare various algorithms.
+These assignments were done to test and/or compare various algorithms.
 
 **Assignment 1:** search algorithms
 
