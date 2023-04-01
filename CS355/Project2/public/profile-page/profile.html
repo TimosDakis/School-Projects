@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>GamerList</title>
+        <link rel="icon" type="image/x-icon" href="../other-images/favicon.png">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../universals/universal_style.css">
+        <link rel="stylesheet" href="profile_style.css">
+    </head>
+    <body>
+        <!-- navbar -->
+        <nav>
+            <div class="nav-container">
+                <a href="../index.html">GamerList</a>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="profile.html" class="current">Profile</a></li>
+                    <li><a href="../game-list-page/game-list.html">Game List</a></li>
+                    <li><a href="../feed-page/feed.html">Feed</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- main content of body -->
+        <div class="main-page-content">
+            <!-- segments for user stats -->
+            <fieldset>
+                <legend>User Stats</legend>
+                <table id="stats-table">
+                    <tr id="table-headers">
+                        <th>Playing</th>
+                        <th>Completed</th>
+                        <th>Planning</th>
+                    </tr>
+                    <tr id="table-data">
+                        <td id="playing-data" class="counter" data-target="13">0</td>
+                        <td id="complete-data" class="counter" data-target="10">0</td>
+                        <td id="planning-data" class="counter" data-target="2">0</td>
+                    </tr>
+                </table>
+            </fieldset>
+            <!-- segments for games being played -->
+            <fieldset>
+                <legend>Playing</legend>
+                <table id="playing-table"></table>
+            </fieldset>
+            <!-- segments for games completed -->
+            <fieldset>
+                <legend>Completed</legend>
+                <table id="completed-table"></table>
+            </fieldset>
+            <!-- segments for games being planned -->
+            <fieldset>
+                <legend>Planning</legend>
+                <table id="planning-table"></table>
+            </fieldset>
+        </div>
+        <!-- footer -->
+        <footer>
+            <div class="footer-text">
+                <ul>
+                    <li>GamerList &copy; 2023 - All rights reserved</li>
+                    <li><a href="https://github.com/TimosDakis" target="_blank">Timothy Dakis</a></li>
+                </ul>
+            </div>
+        </footer>
+        <script src="../universals/universal_script.js"></script>
+        <script src="profile_script.js"></script>
+    </body>
+</html>

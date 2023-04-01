@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>GamerList</title>
+        <link rel="icon" type="image/x-icon" href="../other-images/favicon.png">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../universals/universal_style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="game-list_style.css">
+    </head>
+    <body>
+        <!-- navbar -->
+        <nav>
+            <div class="nav-container">
+                <a href="../index.html">GamerList</a>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../profile-page/profile.html">Profile</a></li>
+                    <li><a href="game-list.html" class="current">Game List</a></li>
+                    <li><a href="../feed-page/feed.html">Feed</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- main content of body -->
+        <div class="main-page-content">
+            <div class="filter">
+                <!-- genre filter -->
+                <div class="genre-filter-container">
+                    <button id="genre-menu-icon">
+                        <span class="material-symbols-outlined">menu</span>
+                    </button>
+                    <!-- https://github.com/bradtraversy/50projects50days/blob/master/good-cheap-fast/index.html -->
+                    <div id="genre-checkbox-container" class="hidden">
+                        <div class="toggle-container">
+                            <input type="checkbox" id="action" class="toggle">
+                            <label for="action" class="label">
+                                <div class="ball"></div>
+                            </label>
+                            <span>Action</span>
+                        </div>
+                        <div class="toggle-container">
+                            <input type="checkbox" id="platformer" class="toggle">
+                            <label for="platformer" class="label">
+                                <div class="ball"></div>
+                            </label>
+                            <span>Platformer</span>
+                        </div>
+                        <div class="toggle-container">
+                            <input type="checkbox" id="shooter" class="toggle">
+                            <label for="shooter" class="label">
+                                <div class="ball"></div>
+                            </label>
+                            <span>Shooter</span>
+                        </div>
+                        <div class="toggle-container">
+                            <input type="checkbox" id="fighting" class="toggle">
+                            <label for="fighting" class="label">
+                                <div class="ball"></div>
+                            </label>
+                            <span>Fighting</span>
+                        </div>
+                        <div class="toggle-container">
+                            <input type="checkbox" id="stealth" class="toggle">
+                            <label for="stealth" class="label">
+                                <div class="ball"></div>
+                            </label>
+                            <span>Stealth</span>
+                        </div>
+                        <div class="toggle-container">
+                            <input type="checkbox" id="survival" class="toggle">
+                            <label for="survival" class="label">
+                                <div class="ball"></div>
+                            </label>
+                            <span>Survival</span>
+                        </div>
+                        <div class="toggle-container">
+                            <input type="checkbox" id="rhythm" class="toggle">
+                            <label for="rhythm" class="label">
+                                <div class="ball"></div>
+                            </label>
+                            <span>Rhythm</span>
+                        </div>
+                        <div class="toggle-container">
+                            <input type="checkbox" id="metroidvania" class="toggle">
+                            <label for="metroidvania" class="label">
+                                <div class="ball"></div>
+                            </label>
+                            <span>Metroidvania</span>
+                        </div>
+                        <div class="toggle-container">
+                            <input type="checkbox" id="visual-novel" class="toggle">
+                            <label for="visual-novel" class="label">
+                                <div class="ball"></div>
+                            </label>
+                            <span>Visual Novel</span>
+                        </div>
+                        <div class="toggle-container">
+                            <input type="checkbox" id="puzzle" class="toggle">
+                            <label for="puzzle" class="label">
+                                <div class="ball"></div>
+                            </label>
+                            <span>Puzzle</span>
+                        </div>
+                        <div class="toggle-container">
+                            <input type="checkbox" id="arpg" class="toggle">
+                            <label for="arpg" class="label">
+                                <div class="ball"></div>
+                            </label>
+                            <span>Action RPG</span>
+                        </div>
+                        <div class="toggle-container">
+                            <input type="checkbox" id="roguelike" class="toggle">
+                            <label for="roguelike" class="label">
+                                <div class="ball"></div>
+                            </label>
+                            <span>Roguelike</span>
+                        </div>
+                        <div class="toggle-container">
+                            <input type="checkbox" id="rpg" class="toggle">
+                            <label for="rpg" class="label">
+                                <div class="ball"></div>
+                            </label>
+                            <span>RPG</span>
+                        </div>
+                        <div class="toggle-container">
+                            <input type="checkbox" id="jrpg" class="toggle">
+                            <label for="jrpg" class="label">
+                                <div class="ball"></div>
+                            </label>
+                            <span>JRPG</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- search bar -->
+                <div class="search-container">
+                    <input type="text" id="title-filter" placeholder="Search for title...">
+                    <button id="search-icon">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+            <!-- list of games users can track -->
+            <div id="game-list-container"></div>
+        </div>
+        <!-- footer -->
+        <footer>
+            <div class="footer-text">
+                <ul>
+                    <li>GamerList &copy; 2023 - All rights reserved</li>
+                    <li><a href="https://github.com/TimosDakis" target="_blank">Timothy Dakis</a></li>
+                </ul>
+            </div>
+        </footer>
+        <script src="../universals/universal_script.js"></script>
+        <script src="game-list_script.js"></script>
+    </body>
+</html>
