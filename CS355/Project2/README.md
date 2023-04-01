@@ -13,8 +13,8 @@
 
 **__Udemy Implementations__**  
 *Note: hyperlinks link to an example of where udemy idea was implemented*
-- []()
-- []()
-- []()
-- []()
-- []()
+- [Incrementing Counter]()
+- [Auto Text Effect]()
+- [Good, Cheap, Fast Checkboxes]()
+- [Image Carousel]()
+- [Live User Fitler]()
