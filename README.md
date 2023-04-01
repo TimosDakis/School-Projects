@@ -12,4 +12,5 @@
 <li>CS340 (Operating Systems)</li>
 <li>CS343 (Computer Architecture)</li>
 <li>CS344 (Distributed Systems)</li>
+<li>CS355 (Internet and Web Technologies)</li>
 </ul>
