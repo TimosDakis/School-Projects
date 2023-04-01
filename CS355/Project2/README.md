@@ -7,9 +7,9 @@
 - Run "node server.js"
 
 **__Documents__**
-- [Whitepaper and Visual Hierarchy]()
-- [Graypaper]()
-- [Video Link]()
+- [Whitepaper and Visual Hierarchy](https://github.com/TimosDakis/School-Projects/blob/main/CS355/Project2/Whitepaper%2C%20Graypaper%2C%20and%20Video/Project2_Whitepaper.pdf)
+- [Graypaper](https://github.com/TimosDakis/School-Projects/blob/main/CS355/Project2/Whitepaper%2C%20Graypaper%2C%20and%20Video/Project2_Graypaper.pdf)
+- [Video Link](https://youtu.be/SBFiRCtfaSw)
 
 **__Udemy Implementations__**  
 *Note: hyperlinks link to an example of where udemy idea was implemented*
