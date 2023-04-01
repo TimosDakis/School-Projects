@@ -13,8 +13,8 @@
 
 **__Udemy Implementations__**  
 *Note: hyperlinks link to an example of where udemy idea was implemented*
-- [Incrementing Counter]()
-- [Auto Text Effect]()
-- [Good, Cheap, Fast Checkboxes]()
-- [Image Carousel]()
-- [Live User Fitler]()
+- [Incrementing Counter](https://github.com/TimosDakis/School-Projects/blob/main/CS355/Project2/public/profile-page/profile_script.js#L1)
+- [Auto Text Effect](https://github.com/TimosDakis/School-Projects/blob/main/CS355/Project2/public/script.js#L29)
+- [Good, Cheap, Fast Checkboxes](https://github.com/TimosDakis/School-Projects/blob/main/CS355/Project2/public/game-list-page/game-list_style.css#L95)
+- [Image Carousel](https://github.com/TimosDakis/School-Projects/blob/main/CS355/Project2/public/script.js#L2)
+- [Live User Fitler](https://github.com/TimosDakis/School-Projects/blob/main/CS355/Project2/public/game-list-page/game-list_script.js#L232)
