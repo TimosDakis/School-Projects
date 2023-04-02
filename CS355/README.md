@@ -1,2 +1,3 @@
+# Projects
 - Project 1 can be found [here](https://github.com/afshanafalza/BookStore)
 - Project 2 can be found [here](https://github.com/TimosDakis/GamerList)
