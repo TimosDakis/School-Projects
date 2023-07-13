@@ -13,4 +13,5 @@
 <li>CS343 (Computer Architecture)</li>
 <li>CS344 (Distributed Systems)</li>
 <li>CS355 (Internet and Web Technologies)</li>
+<li>CS370 (Software Engineering)</li>
 </ul>
